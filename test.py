@@ -5,7 +5,7 @@ from sentence_transformers import SentenceTransformer, util
 
 # Groq API Function
 def get_explanation(problem, solution):
-    GROQ_API_KEY = "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"
+    GROQ_API_KEY = "GROQ API KEY"
     url = "https://api.groq.com/openai/v1/chat/completions"  # Groq API endpoint
 
     headers = {
